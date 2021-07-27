@@ -1,6 +1,6 @@
 
 @media only screen and (max-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Tokyo+Zoo&display=swap');
 *{
     padding: 0;
@@ -15,6 +15,11 @@
   body{
     font-family: 'Poppins', sans-serif;
   }
+
+
+
+
+
    *{
        width: auto;
        height: auto;
@@ -28,7 +33,7 @@
  }
  .checkbtn{
      color: white;
-     margin-right: 15rem;
+     margin-right: 7rem;
      line-height: 5rem;
      font-size: 2rem;
      display: flex;
