@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Tokyo+Zoo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  html{
+      font-size: 62.5%;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  #check{
+      display: none;
+  }
+  .checkbtn{
+      display: none;
+  }
+
+  nav{
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+      padding-top: 1rem;
+  }
+
+.nav-con, .contenar{
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    line-height: 70px;
+    align-items: center;
+}
+label.logo{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 9.5rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: cyan;
+    
+}
+.nav-left ul{
+
+}
+.nav-left ul li{
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+.nav-left ul li a{
+    padding: 1rem 1.5rem;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    font-weight: 600;
+}
+.nav-left ul li a:hover{
+    box-shadow: 0 0 5px cyan,
+                 0 0 5px cyan;
+   
+    border-radius: 0.4rem;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 0.9rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+.nav-right .nav-btn{
+    color: black;
+    background-color: cyan;
+    border: transparent;
+    outline: none;
+
+}
+.nav-btn:hover{
+    background:transparent;
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 0.3rem;
+}
+
+
+
+/*s1*/
+#s1{
+    background: #1a1a1a;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 69% 75%, 0 100%, 0% 80%, 0% 20%);
+}
+.s1-con{
+    
+}
+.s1-left img {
+    width: 300px;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+.s1-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25rem;
+    margin-top: 10rem;
+    margin-right: 6rem;
+}
+
+.s1-right h6 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.s1-right h1 {
+    font-size: 3rem;
+    color: white;
+    width: 31rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.s1-right span {
+    color: cyan;
+}
+.s1-right p {
+    font-size: 1.3rem;
+    width: 45rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+.s1-btn {
+    border: 2px solid cyan;
+    background: transparent;
+    color: cyan;
+    
+}
+
+.s1-btn:hover{
+    background: cyan;
+    color: black;
+}
+section#s2 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.s2-left img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13rem;
+}
+.s2-right {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-top: -1rem;
+}
+.s2-right h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.s2-right h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.s2-right p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.s2-icon i {
+       font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: cyan;
+    padding: 1.5rem;
+    border-radius: 100%;
+    color: black;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+   *{
+       width: auto;
+       height: auto;
+   }
+   .nav{
+    display: flex;
+    justify-content: space-between;
+   }
+ .nav-con{
+     background-color: black;
+ }
+ .checkbtn{
+     color: white;
+     margin-right: 15rem;
+     line-height: 5rem;
+     font-size: 2rem;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+
+ }
+ #check{
+     display: none;
+ }
+label.logo{
+font-size: 2rem;
+color: white;
+line-height: 5rem;
+margin-left: 5rem;
+text-transform: uppercase;
+font-weight: 600;
+}
+nav ul{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 4%;
+    transition: .4s ease-in;
+    z-index: 1;
+  
+   
+}
+nav ul li{
+    line-height: 5rem;
+    margin-top: 3rem;
+}
+nav ul li a{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    transition: .3s ease-in-out;
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+.nav ul li a:hover{
+    box-shadow: 0 0 5px cyan,
+                 0 0 5px cyan;
+   
+    border-radius: 0.4rem;
+}
+
+#s1{
+    background-color: black;
+    padding-top: 2rem;
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 100%, 69% 92%, 56% 89%, 0 100%, 0% 43%, 0 0);
+    padding-bottom: 3rem;
+
+}
+.s1-left{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+.s1-left img {
+    width: 200px;
+    margin:0 auto;
+   
+}
+.s1-right{
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+
+}
+.s1-right h6 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.s1-right h1{
+    font-size: 2rem;
+color: white;
+width: 25rem;
+margin-bottom: 1rem;
+letter-spacing: 1px;
+font-weight: 100;
+}
+.s1-right span {
+    color: cyan;
+}
+.s1-right p {
+    font-size: 1rem;
+    width: 26rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+.s1-btn {
+    border: 2px solid cyan;
+    background: transparent;
+    color: cyan;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    
+}
+.s1-btn:hover{
+    background: cyan;
+    color: black;
+}
+
+
+.s2-left img {
+    width: 156px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.s2-con.contenar {
+    display: flex;
+    gap: 2rem;
+}
+.s2-right{
+    margin-top: 5rem;
+}
+.s2-right p {
+    width: 188px;
+    text-transform: capitalize;
+}
+.s2-right h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+.s2-right h3 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+.s2-right i {
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: cyan;
+    padding: 0.7rem;
+    border-radius: 100%;
+    color: black;
+}
+
+
+
+
+
+
+}
